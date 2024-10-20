@@ -11,19 +11,23 @@
 
 .all-members > .member{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 1.5rem;
 }
 
-.all-members > .member > .left > .member-img > img{
+.all-members > .member > .up{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.all-members > .member > .up > .member-img > img{
     width: 200px;
     height: 200px;
     border-radius: 50%;
     box-shadow: var(--et-color-primary) 2px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
-.all-members > #leonardo-eurotech > .left > .member-img > img{
+.all-members > #leonardo-eurotech > .up > .member-img > img{
     border-radius: 50%;
     box-shadow: var(--et-color-primary) 2px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     background-image: url(../../assets/photos/leonardo-eurotech.jpg);
@@ -31,33 +35,35 @@
     background-position: center;
 }
 
-.all-members > .member > .right{
-    height: 100%;
+.all-members > .member > .down{
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 20px;
+    padding: 10px;
 }
 
-.all-members > .member > .right > .member-name{
+.all-members > .member > .up > .member-name{
     color: var(--et-color-primary);
     font-size: 2rem;
     font-weight: 800;
 }
 
-.all-members > .member > .right > .member-name > span{
+.all-members > .member > .up > .member-name > span{
     color: var(--et-color-secondary);
     background-color: var(--et-color-primary);
     padding: 3px;
     border-radius: 5px;
 }
 
-.all-members > .member > .right > .member-links{
+.all-members > .member > .down > .member-links{
     display: flex;
+    justify-content: flex-start;
     gap: 20px;
+    padding-left: 20px;
 }
 
-.all-members > .member > .right > .member-links > a > i{
+.all-members > .member > .down > .member-links > a > i{
     color: var(--et-color-secondary);
     width: 60px;
     height: 60px;
@@ -73,11 +79,11 @@
     font-weight: 800;
 }
 
-.all-members > .member > .right > .member-links > a{
+.all-members > .member > .down > .member-links > a{
     text-decoration: none;
     border-radius: 50%;
 }
 
-.all-members > .member > .right > .member-links > a > i:hover{
+.all-members > .member > .down > .member-links > a > i:hover{
     transform: translateY(-2px);
 }
