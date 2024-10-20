@@ -1,5 +1,7 @@
 html{
     font-family: var(--et-font-family-base);
     background-color: #E1E6ED;
-
+    background-image: url(../../assets/photos/teste.avif);
+    background-position: center;
+    background-size: cover;
 }

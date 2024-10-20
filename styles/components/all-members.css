@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
-    height: 100dvh;
+    height: calc(100dvh - 110px);
     padding: 10px;
 }
 

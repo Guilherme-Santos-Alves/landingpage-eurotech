@@ -1,0 +1,26 @@
+.main-title{
+    height: 110px;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-title > .title{
+    color: var(--et-color-primary);
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+
+.main-title > .title > span{
+    color: var(--et-color-secondary);
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.main-title > .subtitle{
+    color: var(--et-color-primary);
+    font-size: 2rem;
+    font-weight: 800;
+}
