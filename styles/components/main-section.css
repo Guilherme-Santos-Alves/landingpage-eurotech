@@ -1,8 +1,7 @@
 .main-title{
-    height: 110px;
+    height: 90px;
     padding: 10px 0px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -19,14 +18,31 @@
     font-weight: 800;
 }
 
-.main-title > .subtitle{
+.main-title > .logo-title{
+    display: flex;
+    align-items: center;
+}
+
+.main-title > .logo-title img{
+    width: 80px;
+    height: 90px;
+}
+
+.subtitle{
     color: var(--et-color-primary);
     font-size: 2rem;
     font-weight: 800;
+    display: flex;
+    justify-content: center;
 }
 
 .main-section{
     background-image: url(../../assets/photos/teste.avif);
     background-position: center;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }

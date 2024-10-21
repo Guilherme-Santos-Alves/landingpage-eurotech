@@ -1,3 +1,5 @@
 html{
     font-family: var(--et-font-family-base);
+    scroll-behavior: smooth;
+    width: 100%;
 }

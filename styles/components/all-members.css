@@ -1,5 +1,6 @@
 .all-members{
     height: 100%;
+    width: 90%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     align-items: center;
@@ -27,12 +28,16 @@
     box-shadow: var(--et-color-primary) 2px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
-.all-members > #leonardo-eurotech > .up > .member-img > img{
+.all-members > #leonardo-eurotech > .up > .member-img{
     border-radius: 50%;
     box-shadow: var(--et-color-primary) 2px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     background-image: url(../../assets/photos/leonardo-eurotech.jpg);
     background-size: cover;
     background-position: center;
+}
+
+.all-members > #leonardo-eurotech > .up > .member-img > img{
+    opacity: 0;
 }
 
 .all-members > .member > .down{
@@ -95,12 +100,14 @@
     bottom: 0;
     left: 50%;
     padding: 10px 20px;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
     border-radius: 5px;
     transform: translateX(-50%);
     animation: float 3s ease-in-out infinite;
     margin-bottom: 20px;
     text-decoration: none;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
 
 @keyframes float {

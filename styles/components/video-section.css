@@ -10,7 +10,6 @@
 .video-player{
     height: 70%;
     width: 60%;
-    background-color: red;
 }
 
 .video-player > iframe{
