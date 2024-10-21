@@ -21,7 +21,8 @@
 
 <link rel="stylesheet" href="../styles/components/all-members.css">
 <link rel="stylesheet" href="../styles/components/scrollbar.css">
-<link rel="stylesheet" href="../styles/components/main-title.css">
+<link rel="stylesheet" href="../styles/components/main-section.css">
+<link rel="stylesheet" href="../styles/components/video-section.css">
 
 <link rel="stylesheet" href="../styles/generic/box-sizing.css">
 <link rel="stylesheet" href="../styles/generic/reset.css">
@@ -29,68 +30,80 @@
 <link rel="stylesheet" href="../styles/settings/color.css">
 <link rel="stylesheet" href="../styles/settings/text.css">
 
+<!-- JAVASCRIPT -->
+<script src="../js/arrow-redirect.js"></script>
+
 <body>
-    <div class="main-title">
-        <h1 class="title">Grupo Euro<span>Tech</span></h1>
-        <h2 class="subtitle">Contate-nos!</h2>
-    </div>
-    <div class="all-members">
-        <div class="member">
-            <div class="up">
-                <div class="member-img">
-                    <img src="../assets/photos/carlos-eurotech.jpg" alt="">
-                </div>
-                <h2 class="member-name">Carlos <span>Portiolli</span></h2>
-            </div>
-            <div class="down">
-                <div class="member-links">
-                    <a href="https://www.linkedin.com/in/carlos-ponchirolli/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="https://github.com/CarlosHLP060304" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
-                </div>
-            </div>
+    <section class="main-section">
+        <div class="main-title" id="main-title">
+            <h1 class="title">Grupo Euro<span>Tech</span></h1>
+            <h2 class="subtitle">Contate-nos!</h2>
         </div>
-        <div class="member">
-            <div class="up">
-                <div class="member-img">
-                    <img src="../assets/photos/vitor-eurotech.png" alt="">
+        <div class="all-members" id="all-members">
+            <div class="member">
+                <div class="up">
+                    <div class="member-img">
+                        <img src="../assets/photos/carlos-eurotech.jpg" alt="">
+                    </div>
+                    <h2 class="member-name">Carlos <span>Portiolli</span></h2>
                 </div>
-                <h2 class="member-name">Vitor <span>Santos</span></h2>
-            </div>
-            <div class="down">
-                <div class="member-links">
-                    <a href="https://www.linkedin.com/in/vitor-santos-alves/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="https://github.com/vitxr10" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+                <div class="down">
+                    <div class="member-links">
+                        <a href="https://www.linkedin.com/in/carlos-ponchirolli/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/CarlosHLP060304" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+                    </div>
                 </div>
             </div>
+            <div class="member">
+                <div class="up">
+                    <div class="member-img">
+                        <img src="../assets/photos/vitor-eurotech.png" alt="">
+                    </div>
+                    <h2 class="member-name">Vitor <span>Santos</span></h2>
+                </div>
+                <div class="down">
+                    <div class="member-links">
+                        <a href="https://www.linkedin.com/in/vitor-santos-alves/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/vitxr10" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="member">
+                <div class="up">
+                    <div class="member-img">
+                        <img src="../assets/photos/luigi-eurotech.jpeg" alt="">
+                    </div>
+                    <h2 class="member-name">Luigi <span>Licciardi</span></h2>
+                </div>
+                <div class="down">
+                    <div class="member-links">
+                        <a href="https://www.linkedin.com/in/luigi-licciardi/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Licciardi" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="member" id="leonardo-eurotech">
+                <div class="up">
+                    <div class="member-img">
+                        <img src="" alt="">
+                    </div>
+                    <h2 class="member-name">Leonardo <span>Gomes</span></h2>
+                </div>
+                <div class="down">
+                    <div class="member-links">
+                        <a href="https://www.linkedin.com/in/leonardo-arantes-gomes/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/LeonardoGomess" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+    
+            <a href="#video-section" class="section-video-btn"><i class="fa-solid fa-arrow-down"></i></a>
         </div>
-        <div class="member">
-            <div class="up">
-                <div class="member-img">
-                    <img src="../assets/photos/luigi-eurotech.jpeg" alt="">
-                </div>
-                <h2 class="member-name">Luigi <span>Licciardi</span></h2>
-            </div>
-            <div class="down">
-                <div class="member-links">
-                    <a href="https://www.linkedin.com/in/luigi-licciardi/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="https://github.com/Licciardi" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
-                </div>
-            </div>
+    </section>
+    <section class="video-section" id="video-section">
+        <div class="video-player">
+            <iframe src="https://www.youtube.com/embed/wRfF1YRL3DA" title="EuroTech Sprint 3 - Eurofarma" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
-        <div class="member" id="leonardo-eurotech">
-            <div class="up">
-                <div class="member-img">
-                    <img src="" alt="">
-                </div>
-                <h2 class="member-name">Leonardo <span>Gomes</span></h2>
-            </div>
-            <div class="down">
-                <div class="member-links">
-                    <a href="https://www.linkedin.com/in/leonardo-arantes-gomes/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="https://github.com/LeonardoGomess" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
+    </section>
 </body>
 </html>
