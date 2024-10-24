@@ -1,5 +1,11 @@
 :root{
     --et-color-primary: #003382;
+    --et-color-primary-dark: #060E25;
     --et-color-secondary: #F8DB35;
     --et-color-gray: #efefef;
+
+    --et-color-neutral-0: #0e0c0c;
+    --et-color-neutral-10: #171717;
+    --et-color-neutral-30: #a8a29e;
+    --et-color-neutral-40: #f5f5f5;
 }

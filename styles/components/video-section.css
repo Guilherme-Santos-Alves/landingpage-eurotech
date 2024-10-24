@@ -1,6 +1,6 @@
 .video-section{
     background-color: var(--et-color-primary);
-    height: calc( 100dvh - var(--et-footer-size));
+    height: 100dvh;
     width: 100%;
     display: flex;
     justify-content: center;
