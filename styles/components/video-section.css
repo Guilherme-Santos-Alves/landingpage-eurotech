@@ -1,6 +1,6 @@
 .video-section{
     background-color: var(--et-color-primary);
-    height: 100dvh;
+    height: calc( 100dvh - var(--et-footer-size));
     width: 100%;
     display: flex;
     justify-content: center;
@@ -19,14 +19,14 @@
     }
 }
 
-@media screen and (min-width: 600px) and (max-width: 899px) {
+@media screen and (min-width: 600px) and (max-width: 899.99px) {
     .video-player{
         height: 60%;
         width: 90%;
     }
 }
 
-@media screen and (min-width: 300px) and (max-width: 599px) {
+@media screen and (min-width: 300px) and (max-width: 599.99px) {
     .video-player{
         height: 50%;
         width: 90%;

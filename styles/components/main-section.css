@@ -51,7 +51,7 @@
 
 
 
-@media screen and (min-width: 300px) and (max-width: 369px){
+@media screen and (min-width: 300px) and (max-width: 369.99px){
     .main-title{
         height: 80px;
         padding: 5px 0px;
@@ -83,7 +83,7 @@
     }
 }
 
-@media screen and (min-width: 370px) and (max-width: 599px) {
+@media screen and (min-width: 370px) and (max-width: 599.99px) {
     .main-title{
         height: 80px;
         padding: 5px 0px;
