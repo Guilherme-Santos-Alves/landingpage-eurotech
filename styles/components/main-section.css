@@ -1,3 +1,15 @@
+.main-section{
+    background-image: url(../../assets/background/background.avif);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+}
+
 .main-title{
     height: 90px;
     padding: 10px 0px;
@@ -36,19 +48,42 @@
     justify-content: center;
 }
 
-.main-section{
-    background-image: url(../../assets/background/background.avif);
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    overflow: hidden;
+
+
+
+@media screen and (min-width: 300px) and (max-width: 369px){
+    .main-title{
+        height: 80px;
+        padding: 5px 0px;
+    }
+    
+    .main-title > .title{
+        color: var(--et-color-primary);
+        font-size: 2rem;
+    }
+    
+    .main-title > .title > span{
+        color: var(--et-color-secondary);
+        font-size: 2rem;
+    }
+    
+    .main-title > .logo-title{
+        display: flex;
+        align-items: center;
+    }
+    
+    .main-title > .logo-title img{
+        width: 60px;
+        height: 70px;
+    }
+
+    .subtitle{
+        font-size: 1.2rem;
+        margin-bottom: 40px;
+    }
 }
 
-@media screen and (min-width: 300px) and (max-width: 599px) {
+@media screen and (min-width: 370px) and (max-width: 599px) {
     .main-title{
         height: 80px;
         padding: 5px 0px;
